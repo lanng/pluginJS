@@ -1,0 +1,12 @@
+{
+  "manifest_version":2,
+  "version":"1.0",
+  "name":"PluginJS",
+  "content_scripts":[
+    {
+     "matches":["https://www.webmondial.com.br/fechamentonet/addItems.aspx"],
+     "js":["main.js"],
+     "run_at": "document_end"
+    }
+  ]
+}
