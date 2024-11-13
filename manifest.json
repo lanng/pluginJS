@@ -4,7 +4,7 @@
 	"name": "PluginJS",
 	"content_scripts": [
 		{
-			"matches": ["https://www.webmondial.com.br/FechamentoNet/addItems.aspx"],
+			"matches": ["https://www.webmondial.com.br/fechamentonet/addItems.aspx"],
 			"js": ["main.js"],
 			"run_at": "document_end"
 		}
